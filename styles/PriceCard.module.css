@@ -1,0 +1,56 @@
+.ul {
+  list-style-type: none;
+  /* line-height: 0.6; */
+}
+.li {
+  padding-bottom: 16px;
+  font-size: 16px;
+  /* line-height: 1.2; */
+}
+.sub {
+  font-size: 25px;
+}
+.h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.span {
+  font-size: 20px;
+  font-weight: 300;
+}
+.h5 {
+  padding-top: 15px;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #f8f8fe;
+}
+.card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.card-body {
+  padding: 25px 0;
+}
+.btn {
+  padding: 8px 25px;
+  font-size: 20px;
+  border-radius: 0px;
+}
+.btn-custom {
+  background-color: #7151a9;
+  color: #fff;
+}
+.btn-custom:hover {
+  background-color: #fff;
+  color: #7151a9;
+  border-color: #7151a9;
+}
+@media (max-width: 575px) {
+  .container {
+    width: 90%;
+  }
+}

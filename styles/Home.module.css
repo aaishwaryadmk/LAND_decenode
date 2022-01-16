@@ -1,0 +1,15 @@
+.bgpurple {
+  background: radial-gradient(228.01% 83.16% at 48.75% 18.88%, #7151A9 0%, #916DD5 100%);
+}
+
+.landing {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F8FE;
+}
+
+.main {
+  max-width: 1000px;
+}
